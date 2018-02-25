@@ -1,7 +1,7 @@
-# AdperSense\n
-Josh Campbell\n
-Chris Bell\n
-2/25/2018\n
+# AdperSense
+Josh Campbell  
+Chris Bell  
+2/25/2018  
 HackIllinois 2018
 
 Data Collection:
