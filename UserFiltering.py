@@ -21,4 +21,3 @@ for filename in os.listdir("./images_test"):
     else:
         os.rename("./images_test/"+filename, "./good_images2/"+filename)
 
-
