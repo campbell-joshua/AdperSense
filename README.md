@@ -4,7 +4,10 @@ Chris Bell
 2/25/2018  
 HackIllinois 2018
 
-Purpose:
+### Built With
+AdperSense is constructed with Google's Tensorflow, MIT's React, NodeJS, Javascript, and Python
+
+### Purpose
 Using machine learning, advertisments are anyalized based on data survayed from users.  
 Users can upload images to the database, and will be given the potential success rate 
 of the advertisemnt, based on a set of data determined by user survays and machine learning.  
@@ -13,7 +16,7 @@ This specific dataset included contains data of ~900 different advertisements re
 18-24 year-old males. We strongly recommend as many data samples as possible, as it makes the model 
 more accurate.
 
-Data Collection:
+### Development
 Advertisements to be tested by users are place in ./images_test/  
 To pull large quantities of advertisements from a google search, using Fatkun Batch
 Download Image is recommended  
@@ -31,6 +34,12 @@ liked or disliked by a majority of the users.
 ***Several paths will need to be changed if you are using a different file structure***  
 The ads that are liked by a majority of users are placed in ./final_good/ while ones that are disliked by a majority
 are placed in ./final_bad/
+
+### Features
+The user will navigate to a web app and feed the program an advertisement image. The ad will run it through iterations and come out with a test that matches closer to the more successful advertisements, or the less successful ones, based on patterns given by the previous user group when training the program.
+
+### Why
+This project was built so companies can stop spending as much money as they do every year on advertisements that turn out to not be successful because they do not have the data to be able to perfectly hit the correct age groups. Well now they do. The companies can create an ad, run it through the program, and find whether or not this ad will be successful in which age groups.
 
 OSI:  
     AdperSense, Machine Learning to determine success rate of advertisements
