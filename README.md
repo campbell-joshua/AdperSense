@@ -4,6 +4,10 @@ Chris Bell
 2/25/2018  
 HackIllinois 2018
 
+**Due to file sizes being too big and running out of time, this link will allow you to download the 
+zip of all of the tensorflow and react files**  
+https://drive.google.com/file/d/1YvguE_Bdsy4tBfpgSKkL10Q8wr_Gm7as/view?usp=sharing
+
 ### Built With
 AdperSense is constructed with Google's Tensorflow, MIT's React, NodeJS, Javascript, and Python
 
