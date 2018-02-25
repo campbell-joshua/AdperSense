@@ -1,11 +1,8 @@
 import os
-from PIL import Image
-import psutil
-import time
 import cv2
 
 for filename in os.listdir("./images_test"):
-    print(filename)
+    #print(filename)
     img = cv2.imread("./images_test/"+filename)
     cv2.namedWindow('image',cv2.WINDOW_NORMAL)
     cv2.resizeWindow('image',1400,1400)
@@ -13,7 +10,8 @@ for filename in os.listdir("./images_test"):
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
-    cont = input("Continue?")
+    print("'q' to quit\n'b' to throw out image\n'y' for good image")
+    cont = input("'n' or any other key for bad image")
     if cont == "q":
         break
     elif cont == 'b':
