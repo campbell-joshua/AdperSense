@@ -32,3 +32,6 @@ def main():
             copyfile("./bad_images/"+filename, "./final_good/"+filename)
         else:
             copyfile("./bad_images/" + filename, "./final_bad/" + filename)
+
+if __name__ == "__main__":
+    main()
