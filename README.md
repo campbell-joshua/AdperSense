@@ -32,7 +32,7 @@ liked or disliked by a majority of the users.
 The ads that are liked by a majority of users are placed in ./final_good/ while ones that are disliked by a majority
 are placed in ./final_bad/
 
-OSI:
+OSI:  
     AdperSense, Machine Learning to determine success rate of advertisements
     Copyright (C) <2018>  <Josh Campbell>
 
