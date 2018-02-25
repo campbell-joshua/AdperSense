@@ -34,7 +34,7 @@ are placed in ./final_bad/
 
 OSI:  
     AdperSense, Machine Learning to determine success rate of advertisements
-    Copyright (C) <2018>  <Josh Campbell>
+    Copyright (C) 2018  Josh Campbell
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
