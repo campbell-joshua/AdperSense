@@ -2,17 +2,16 @@ import os
 from PIL import Image
 import psutil
 import time
+import cv2
 
 for filename in os.listdir("./images_test"):
     print(filename)
-    img = Image.open("./images_test/"+filename)
-    img.show()
-
-    time.sleep(2)
-
-    for proc in psutil.process_iter():
-        if proc.name()=="display":
-            proc.kill()
+    img = cv2.imread("./images_test/"+filename)
+    cv2.namedWindow('image',cv2.WINDOW_NORMAL)
+    cv2.resizeWindow('image',1400,1400)
+    cv2.imshow('image',img)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
     cont = input("Continue?")
     if cont == "q":
