@@ -2,13 +2,6 @@
 
 ## Welcome contributors to the project: 
 
-## Short Links to Important Resources:
-* docs: handbook / roadmap (you'll learn more about this in the roadmapping session)
-* bugs: issue tracker / bug report tool
-* communcations: forum link, developer list, IRC/email, Slack, etc.
-## Testing
-## Development environment details
-
 ## How to submit changes: Pull Request protocol etc. 
 **1**. _**Fork**_ the repository
 
@@ -46,15 +39,4 @@
 
 ## How to report a bug: 
 Open an issue on the repo
-    
-## New Feature Requirements
-_Any guidelines for proposing the feature_
-
-## Style Guide / Coding conventions 
-
-## Code of Conduct
-
-## Recognition model
-_How will contributors be recognized?_
-
-## Where can I ask for help?
+ 
