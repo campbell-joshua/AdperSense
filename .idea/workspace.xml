@@ -10,20 +10,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="UserFiltering.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UserFiltering.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+          <file leaf-file-name="UserFiltering.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/UserFiltering.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="736">
+                  <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConsensusCalculation.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ConsensusCalculation.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ConsensusCalculation.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ConsensusCalculation.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1152">
+                  <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,6 +74,7 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/gistfile1.py" />
         <option value="$PROJECT_DIR$/UserFiltering.py" />
+        <option value="$PROJECT_DIR$/ConsensusCalculation.py" />
       </list>
     </option>
   </component>
@@ -76,6 +107,11 @@
               <item name="HackIllinois2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackIllinois2018" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HackIllinois2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackIllinois2018" type="462c0819:PsiDirectoryNode" />
+              <item name="myDirectory" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -88,11 +124,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images_test" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images_test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -107,7 +144,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UserFiltering">
+  <component name="RunManager" selected="Python.ConsensusCalculation">
+    <configuration name="ConsensusCalculation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HackIllinois2018" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConsensusCalculation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="UserFiltering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,23 +175,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HackIllinois2018" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UserFiltering.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="basic_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HackIllinois2018" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic_script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,18 +232,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.basic_script" />
-      <item index="2" class="java.lang.String" itemvalue="Python.generate_samples" />
-      <item index="3" class="java.lang.String" itemvalue="Python.UserFiltering" />
-      <item index="4" class="java.lang.String" itemvalue="Python.gistfile1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.generate_samples" />
+      <item index="2" class="java.lang.String" itemvalue="Python.UserFiltering" />
+      <item index="3" class="java.lang.String" itemvalue="Python.gistfile1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ConsensusCalculation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.UserFiltering" />
-        <item index="1" class="java.lang.String" itemvalue="Python.gistfile1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.generate_samples" />
-        <item index="4" class="java.lang.String" itemvalue="Python.basic_script" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ConsensusCalculation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.UserFiltering" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gistfile1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test" />
+        <item index="4" class="java.lang.String" itemvalue="Python.generate_samples" />
       </list>
     </recent_temporary>
   </component>
@@ -359,8 +396,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UserFiltering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="736">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsensusCalculation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
