@@ -15,8 +15,10 @@ for filename in os.listdir("./images_test"):
     if cont == "q":
         break
     elif cont == 'b':
-        os.rename("./images_test/"+filename, "./garbage/0001"+filename)
+        os.rename("./images_test/"+filename, "./garbage/"+filename)
     elif cont != "y":
-        os.rename("./images_test/"+filename, "./bad_images/0001"+filename)
+        os.rename("./images_test/"+filename, "./bad_images2/"+filename)
     else:
-        os.rename("./images_test/"+filename, "./good_images/0001"+filename)
+        os.rename("./images_test/"+filename, "./good_images2/"+filename)
+
+
